@@ -4,6 +4,7 @@
 (4) H2O’s AutoML (H2O.ai, 2017)---------------https://github.com/openml/automlbenchmark/tree/master/frameworks
 (5) TPOT (Olson et al., 2016)------------------https://github.com/openml/automlbenchmark/tree/master/frameworks
 
+AUCPR = http://pages.cs.wisc.edu/~jdavis/davisgoadrichcamera2.pdf
 
 datasets
 class 
