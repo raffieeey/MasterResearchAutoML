@@ -22,3 +22,14 @@ regression
 -- 503_wind --https://www.openml.org/d/503
 -- 344_mv --https://www.openml.org/d/344
 -- 215_2dplanes --https://www.openml.org/d/215
+
+sel_clss_dtst = ['adult','agaricus-lepiota', 'churn', 'nursery', 'satimage','texture']
+sel_rgrs_dtst = ['294_satellite_image','218_house_8L', '227_cpu_small', '503_wind', '344_mv','215_2dplanes']
+
+for regrs_dtst in sel_rgrs_dtst:
+    df = fetch_data(regrs_dtst)
+    print("Dataframe Name: ",regrs_dtst, ", Dataframe size: ", df.shape)
+    
+for class_dtst in sel_clss_dtst:
+    df = fetch_data(class_dtst)
+    print("Datasets Name: ",class_dtst, " , Number of missing values : ", df.isnull().sum().sum())
