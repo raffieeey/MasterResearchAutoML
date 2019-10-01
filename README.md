@@ -7,11 +7,11 @@
 - [ ] Hyperopt-Sklearn
 
 # Related papers          
-- (1) Hyperopt-Sklearn (Komer et al., 2014)-------------------- https://github.com/openml/automlbenchmark/tree/master/frameworks
-- (2) Auto-sklearn (Feurer et al., 2019)----------------- https://github.com/openml/automlbenchmark/tree/master/frameworks
-- (3) Auto-Net (Mendoza et al., 2019)------------------- https://github.com/automl/Auto-PyTorch
-- (4) H2O’s AutoML (H2O.ai, 2017)---------------https://github.com/openml/automlbenchmark/tree/master/frameworks
-- (5) TPOT (Olson et al., 2016)------------------https://github.com/openml/automlbenchmark/tree/master/frameworks
+- (1) Hyperopt-Sklearn (Komer et al., 2014): https://github.com/openml/automlbenchmark/tree/master/frameworks
+- (2) Auto-sklearn (Feurer et al., 2019): https://github.com/openml/automlbenchmark/tree/master/frameworks
+- (3) Auto-Net (Mendoza et al., 2019): https://github.com/automl/Auto-PyTorch
+- (4) H2O’s AutoML (H2O.ai, 2017): https://github.com/openml/automlbenchmark/tree/master/frameworks
+- (5) TPOT (Olson et al., 2016): https://github.com/openml/automlbenchmark/tree/master/frameworks
 
 # datasets
 ## class 
