@@ -5,15 +5,13 @@
 - [x] TPOT
 - [ ] Auto-sklearn
 - [ ] Hyperopt-Sklearn
-          
+
+# Related papers          
 - (1) Hyperopt-Sklearn (Komer et al., 2014)-------------------- https://github.com/openml/automlbenchmark/tree/master/frameworks
 - (2) Auto-sklearn (Feurer et al., 2019)----------------- https://github.com/openml/automlbenchmark/tree/master/frameworks
 - (3) Auto-Net (Mendoza et al., 2019)------------------- https://github.com/automl/Auto-PyTorch
 - (4) H2O’s AutoML (H2O.ai, 2017)---------------https://github.com/openml/automlbenchmark/tree/master/frameworks
 - (5) TPOT (Olson et al., 2016)------------------https://github.com/openml/automlbenchmark/tree/master/frameworks
-
-# AUCpr
-AUCPR = http://pages.cs.wisc.edu/~jdavis/davisgoadrichcamera2.pdf
 
 # datasets
 ## class 
@@ -38,6 +36,7 @@ AUCPR = http://pages.cs.wisc.edu/~jdavis/davisgoadrichcamera2.pdf
 sel_clss_dtst = ['adult','agaricus-lepiota', 'churn', 'nursery', 'satimage','texture']
 sel_rgrs_dtst = ['294_satellite_image','218_house_8L', '227_cpu_small', '503_wind', '344_mv','215_2dplanes']
 ```
+
 ## Loop dataset
 ```python
 for regrs_dtst in sel_rgrs_dtst:
@@ -48,4 +47,8 @@ for class_dtst in sel_clss_dtst:
     df = fetch_data(class_dtst)
     print("Datasets Name: ",class_dtst, " , Number of missing values : ", df.isnull().sum().sum())
 ```
+
+## AUCpr
+AUCPR = http://pages.cs.wisc.edu/~jdavis/davisgoadrichcamera2.pdf
+
 © 2019 GitHub, Inc.
