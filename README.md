@@ -3,8 +3,8 @@
 
 - [x] H2O AutoML
 - [x] TPOT
-- [ ] Auto-sklearn
-- [ ] Hyperopt-Sklearn
+- [x] Auto-sklearn
+- [ ] Hyperopt-Sklearn #Only Classifier, No Regression
 
 # Related papers          
 - (1) Hyperopt-Sklearn (Komer et al., 2014): https://github.com/openml/automlbenchmark/tree/master/frameworks
