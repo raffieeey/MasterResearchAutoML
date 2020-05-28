@@ -1,0 +1,1 @@
+{'294_satellite_image': 'k_nearest_neighbors', '218_house_8L': 'gradient_boosting', '227_cpu_small': 'k_nearest_neighbors', '503_wind': 'libsvm_svr', '344_mv': 'libsvm_svr', '215_2dplanes': 'liblinear_svr'}

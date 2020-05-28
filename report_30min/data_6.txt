@@ -1,0 +1,1 @@
+{'adult': 'sgd', 'agaricus-lepiota': 'liblinear_svc', 'churn': 'random_forest', 'nursery': 'libsvm_svc', 'satimage': 'adaboost', 'texture': 'adaboost'}

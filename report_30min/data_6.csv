@@ -1,0 +1,7 @@
+       dataset_name metrics_recorded       AUC       ACC   logloss  f1_score
+0             adult         accuracy  0.709748  0.878813  0.613013  0.923117
+1  agaricus-lepiota         accuracy  0.536124         1  0.155714         1
+2             churn         accuracy  0.116222     0.946   0.18476  0.780488
+3           nursery         accuracy       NaN  0.996914  0.287203  0.997592
+4          satimage         accuracy       NaN  0.930124   1.68427  0.915166
+5           texture         accuracy       NaN  0.996364   2.13801  0.996381

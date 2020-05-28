@@ -1,0 +1,15 @@
+          dataset_name     metrics_recorded       MAE          MSE       MSLE  \
+0  294_satellite_image  mean_absolute_error  0.270186  0.776398     0.0316149   
+1  218_house_8L         mean_absolute_error  15505.1   8.51371e+08  0.390528    
+2  227_cpu_small        mean_absolute_error  2.10014   9.30338      NaN         
+3  503_wind             mean_absolute_error  2.2627    8.75814      0.0500027   
+4  344_mv               mean_absolute_error  0.851337  1.16968      NaN         
+5  215_2dplanes         mean_absolute_error  0.795138  1.00908      NaN         
+
+       RMSE     RMSLE        r2  
+0  0.881134  0.177806  0.839525  
+1  29178.3   0.624923  0.671057  
+2  3.05014   NaN       0.970674  
+3  2.95941   0.223613  0.801999  
+4  1.08152   NaN       0.989073  
+5  1.00453   NaN       0.94718   

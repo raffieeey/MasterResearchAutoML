@@ -1,0 +1,7 @@
+{'294_satellite_image': KNeighborsRegressor(n_neighbors=6), '218_house_8L': RandomForestRegressor(bootstrap=False, max_features=0.55, min_samples_leaf=3,
+                      min_samples_split=5, random_state=69), '227_cpu_small': RandomForestRegressor(bootstrap=False, max_features=0.45, min_samples_leaf=3,
+                      min_samples_split=7, random_state=69), '503_wind': XGBRegressor(max_depth=4, min_child_weight=3, nthread=1,
+             objective='reg:squarederror', random_state=69,
+             subsample=0.6000000000000001), '344_mv': ExtraTreesRegressor(bootstrap=True, max_features=1.0, min_samples_leaf=5,
+                    min_samples_split=11, random_state=69), '215_2dplanes': DecisionTreeRegressor(max_depth=7, min_samples_leaf=11, min_samples_split=16,
+                      random_state=69)}

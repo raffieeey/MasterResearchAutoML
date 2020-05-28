@@ -1,0 +1,8 @@
+{'adult': GradientBoostingClassifier(max_depth=6, max_features=0.7500000000000001,
+                           min_samples_leaf=19, min_samples_split=6,
+                           random_state=69, subsample=0.8), 'agaricus-lepiota': KNeighborsClassifier(n_neighbors=3, p=1), 'churn': ExtraTreesClassifier(bootstrap=True, criterion='entropy', max_features=1.0,
+                     min_samples_leaf=5, min_samples_split=8, random_state=69), 'nursery': XGBClassifier(learning_rate=1.0, max_depth=6, min_child_weight=5, nthread=1,
+              objective='multi:softprob', random_state=69,
+              subsample=0.6500000000000001), 'satimage': XGBClassifier(learning_rate=0.5, max_depth=10, nthread=1,
+              objective='multi:softprob', random_state=69,
+              subsample=0.7000000000000001), 'texture': LinearSVC(C=5.0, random_state=69)}
