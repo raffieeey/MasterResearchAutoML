@@ -1,4 +1,4 @@
-# Master Research AutoML
+# Automated Machine Learning : The Study of Top Algorithm Based On Benchmark Dataset
 
 
 - [x] H2O AutoML
